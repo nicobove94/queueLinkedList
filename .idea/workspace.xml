@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abdbb035-a3ac-487e-b49d-ae6eacca9607" name="Changes" comment="Updated package">
-      <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" afterDir="false" />
+    <list default="true" id="abdbb035-a3ac-487e-b49d-ae6eacca9607" name="Changes" comment="Added test directory">
+      <change afterPath="$PROJECT_DIR$/Test/edu/psu/ist/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singlyLinkedList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/singlyLinkedList.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,12 +35,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.psu.ist" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679853231536</updated>
-      <workItem from="1679853232717" duration="462000" />
+      <workItem from="1679853232717" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <created>1679853346977</created>
@@ -69,7 +87,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679853599591</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added to Node class">
+      <created>1679853737204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679853737204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finalized Node class">
+      <created>1679854189852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679854189852</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added main method">
+      <created>1679854203660</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679854203660</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +118,10 @@
     <MESSAGE value="&quot;Initial commit&quot;" />
     <MESSAGE value="Added README.md" />
     <MESSAGE value="Updated package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated package" />
+    <MESSAGE value="Added to Node class" />
+    <MESSAGE value="Finalized Node class" />
+    <MESSAGE value="Added main method" />
+    <MESSAGE value="Added test directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test directory" />
   </component>
 </project>
