@@ -1,13 +1,13 @@
 package edu.psu.ist;
 
 public class SinglyLinkedList<T extends Comparable<T>> {
-    Node head;
+    Node<T> head;
 
     public SinglyLinkedList() {
         this.head = null;
     }
 
-    public Node append(T data) {
+    public Node<T> append(T data) {
         // create the new node
         Node<T> toAppend = new Node<>(data);
 
@@ -19,7 +19,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
             return this.head;
         }
         // find the last node
-        Node lastNode = this.head;
+        Node<T> lastNode = this.head;
         while(lastNode.next != null) {
             lastNode = lastNode.next;
         }
@@ -32,7 +32,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     /**
      * Return whether the list contains this thing or not
      * @param data
-     * @return
+     * @return a boolean
      */
     public boolean contains(T data) {
         // get a pointer to the head
@@ -62,22 +62,16 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         }
         // if it is we need to set the head to null
         Node<T> current = this.head;
+
+        // loop through the list
         while (current.next != null) {
             if (current.next.data.compareTo(data) == 0) {
                 toDelete = current.next;
                 current.next = toDelete.next;
                 toDelete.next = null;
             }
-
             current = current.next;
-
         }
-
-
-
-        // loop through the list
-
-
         // return deleted node
         return toDelete;
     }
@@ -86,19 +80,23 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     public String toString() {
         // get a current pointer
         Node<T> toPrint = this.head;
+
         // get a string builder
         StringBuilder stringBuilder = new StringBuilder();
+
         // loop through all of the nodes
         while (toPrint != null) {
             // append the content to the str builder
             stringBuilder.append(toPrint.data);
             stringBuilder.append(" -> ");
+
             // advance the pointer
             toPrint = toPrint.next;
         }
 
         // print out null
         stringBuilder.append("NULL");
+
         // return the result
         return stringBuilder.toString();
     }

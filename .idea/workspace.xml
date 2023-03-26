@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="abdbb035-a3ac-487e-b49d-ae6eacca9607" name="Changes" comment="iml updates">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
     </list>
@@ -22,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ye43sywc" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,6 +53,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/nicol/Desktop/School/IST 311/singlyLinkedList",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -157,6 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679853231536</updated>
       <workItem from="1679853232717" duration="3572000" />
+      <workItem from="1679866155119" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <created>1679853346977</created>

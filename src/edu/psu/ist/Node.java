@@ -2,7 +2,7 @@ package edu.psu.ist;
 
 public class Node<T extends Comparable<T>> {
     T data;
-    Node next;
+    Node<T> next;
 
     public Node(T data) {
         this.data = data;
