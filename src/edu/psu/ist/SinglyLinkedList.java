@@ -74,6 +74,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
             }
             current = current.next;
         }
+
         // return deleted node
         return toDelete;
     }
@@ -81,11 +82,22 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     public Node<T> enqueue(T data) {
         // create new node
         Node<T> toEnqueue = new Node<>(data);
-        // check if the list is empty
-        // if it is, set the head, tail and new node equal to one another
-        //return it
 
-        // set the node equal to the next node in the queue
+        // check if the list is empty
+        if (this.head == null && this.tail == null) {
+            // set the head, tail and new node equal to one another
+            this.head = this.tail = toEnqueue;
+
+            //return it
+            return this.head;
+        }
+
+        // set the new node equal to the next node in the queue
+        this.tail.next = toEnqueue;
+
+        // set the 'tail' reference equal to the enqueued node
+        this.tail = toEnqueue;
+
         // return the enqueued node
         return toEnqueue;
     }

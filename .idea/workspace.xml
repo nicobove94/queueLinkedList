@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="Added tail node and enqueue test method">
+    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
@@ -83,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679867198322</updated>
       <workItem from="1679867199442" duration="145000" />
-      <workItem from="1679868561286" duration="1472000" />
+      <workItem from="1679868561286" duration="1891000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679867222706</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679869681373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest">
+      <created>1679870124503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679870124503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="Switched to JUnit 5.8" />
     <MESSAGE value="Added QueueTest, Queue, and a constructor" />
     <MESSAGE value="Added tail node and enqueue test method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tail node and enqueue test method" />
+    <MESSAGE value="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest" />
   </component>
 </project>

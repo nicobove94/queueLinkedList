@@ -64,11 +64,18 @@ class SinglyLinkedListTest {
     }
 
     @Test
-    public void testEnqueue() {
+    public void testEnqueue() { // Passed
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
         assertNull(sll.head);
         assertNull(sll.tail);
 
         assertEquals(1, sll.enqueue(1).data);
+        assertEquals(1, sll.head.data);
+        assertEquals(1, sll.tail.data);
+
+        sll.enqueue(2);
+        sll.enqueue(3);
+        assertEquals(1, sll.head.data);
+        assertEquals(3, sll.tail.data);
     }
 }
