@@ -106,20 +106,29 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         return toEnqueue;
     }
 
-    public Node<T> dequeue(T data) {
+    public Node<T> dequeue() {
         // check if the list is empty
-        // throw an exception
+        if (isEmpty()) {
+            // throw an exception
+            throw new IllegalStateException("The queue is empty");
+        }
 
         // store current head node in toDequeue
+        Node<T> toDequeue = this.head;
 
         // change the head reference to the next node
+        this.head = this.head.next;
 
         // if the head is null, set the tail to null as the list is empty
+        if (this.head == null) {
+            this.tail = null;
+        }
 
         // set the next node to null
+        toDequeue.next = null;
 
         // return the dequeued node
-        return null;
+        return toDequeue;
     }
 
     @Override

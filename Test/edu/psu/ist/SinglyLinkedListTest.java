@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SinglyLinkedListTest {
+
     @Test
     public void testConstructor() { // Passed
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
@@ -80,9 +81,14 @@ class SinglyLinkedListTest {
     }
 
     @Test
-    public void testDequeue() {
+    public void testDequeue() throws IllegalStateException {
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
         assertNull(sll.head);
         assertNull(sll.tail);
+
+        Throwable exception = assertThrows(IllegalStateException.class,
+                sll::dequeue);
+
+        assertEquals("The queue is empty", exception.getMessage());
     }
 }
