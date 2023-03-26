@@ -1,7 +1,7 @@
 package edu.psu.ist;
 
-public class SinglyLinkedList<T> {
-    Node<T> head;
+public class SinglyLinkedList<T extends Comparable<T>> {
+    Node head;
 
     public SinglyLinkedList() {
         this.head = null;
@@ -29,6 +29,59 @@ public class SinglyLinkedList<T> {
         return toAppend;
     }
 
+    /**
+     * Return whether the list contains this thing or not
+     * @param data
+     * @return
+     */
+    public boolean contains(T data) {
+        // get a pointer to the head
+        Node<T> toTest = this.head;
+        // loop through the list until we find it
+        while (toTest != null) {
+            // if find it return true
+            if (toTest.data.compareTo(data) == 0) {
+                return true;
+            }
+            // advance the pointer
+            toTest = toTest.next;
+        }
+
+        // return false if we don't find it
+        return false;
+    }
+
+    public Node<T> delete(T data) {
+        Node<T> toDelete = null;
+
+        // check if we are deleting the head
+        if (this.head.data.compareTo(data) == 0) {
+            toDelete = this.head;
+            this.head = this.head.next;
+            return toDelete;
+        }
+        // if it is we need to set the head to null
+        Node<T> current = this.head;
+        while (current.next != null) {
+            if (current.next.data.compareTo(data) == 0) {
+                toDelete = current.next;
+                current.next = toDelete.next;
+                toDelete.next = null;
+            }
+
+            current = current.next;
+
+        }
+
+
+
+        // loop through the list
+
+
+        // return deleted node
+        return toDelete;
+    }
+
     @Override
     public String toString() {
         // get a current pointer
@@ -43,7 +96,6 @@ public class SinglyLinkedList<T> {
             // advance the pointer
             toPrint = toPrint.next;
         }
-
 
         // print out null
         stringBuilder.append("NULL");
