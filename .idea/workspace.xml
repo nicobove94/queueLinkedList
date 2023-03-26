@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abdbb035-a3ac-487e-b49d-ae6eacca9607" name="Changes" comment="iml updates">
-      <change afterPath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/edu/psu/ist/NodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/edu/psu/ist/NodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="edu.psu.ist" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NodeTest.testConstructor">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testDelete">
     <configuration name="NodeTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlyLinkedList" />
       <extension name="coverage">
@@ -106,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinglyLinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlyLinkedList" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +116,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.psu.ist" />
       <option name="MAIN_CLASS_NAME" value="edu.psu.ist.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testToString" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="singlyLinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.psu.ist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.psu.ist" />
+      <option name="MAIN_CLASS_NAME" value="edu.psu.ist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,10 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDelete" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testContains" />
         <item itemvalue="JUnit.NodeTest.testConstructor" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testConstructor" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testAppend" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679853231536</updated>
-      <workItem from="1679853232717" duration="2473000" />
+      <workItem from="1679853232717" duration="3572000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <created>1679853346977</created>
@@ -197,7 +214,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679854353904</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added SinglyLinkedList">
+      <created>1679855749467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679855749467</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created and passed tests">
+      <created>1679855769198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679855769198</updated>
+    </task>
+    <task id="LOCAL-00011" summary="iml updates">
+      <created>1679855780722</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679855780722</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +250,8 @@
     <MESSAGE value="Added main method" />
     <MESSAGE value="Added test directory" />
     <MESSAGE value="Added test directory and class" />
+    <MESSAGE value="Added SinglyLinkedList" />
+    <MESSAGE value="Created and passed tests" />
     <MESSAGE value="iml updates" />
     <option name="LAST_COMMIT_MESSAGE" value="iml updates" />
   </component>
