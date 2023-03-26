@@ -24,7 +24,7 @@ class SinglyLinkedListTest {
     }
 
     @Test
-    public void testToString() { // PASSED
+    public void testToString() { // Passed
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
         assertNull(sll.head);
         assertEquals("NULL", sll.toString());
@@ -39,5 +39,27 @@ class SinglyLinkedListTest {
         sll.append(3);
         assertEquals("1 -> 2 -> 3 -> NULL", sll.toString());
         assertEquals(3, sll.head.next.next.data);
+    }
+
+    @Test
+    public void testContains() { // Passed
+        SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
+        sll.append(1);
+        sll.append(2);
+        sll.append(3);
+        assertFalse(sll.contains(4));
+        assertTrue(sll.contains(1));
+        assertTrue(sll.contains(2));
+        assertTrue(sll.contains(3));
+    }
+
+    @Test
+    public void testDelete() { // Passed
+        SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
+        sll.append(1);
+        sll.append(2);
+        sll.append(3);
+        assertNull(sll.delete(4));
+        assertEquals(1, sll.delete(1).data);
     }
 }
