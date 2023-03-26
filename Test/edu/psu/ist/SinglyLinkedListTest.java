@@ -81,7 +81,7 @@ class SinglyLinkedListTest {
     }
 
     @Test
-    public void testDequeue() throws IllegalStateException {
+    public void testDequeue() throws IllegalStateException { // Passed
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
         assertNull(sll.head);
         assertNull(sll.tail);
@@ -90,5 +90,21 @@ class SinglyLinkedListTest {
                 sll::dequeue);
 
         assertEquals("The queue is empty", exception.getMessage());
+
+        sll.enqueue(1);
+        sll.enqueue(2);
+        sll.enqueue(3);
+
+        assertEquals(1, sll.dequeue().data);
+        assertEquals(2, sll.head.data);
+        assertEquals(3, sll.head.next.data);
+
+        assertEquals(2, sll.dequeue().data);
+        assertEquals(3, sll.head.data);
+        assertNull(sll.head.next);
+
+        assertEquals(3, sll.dequeue().data);
+        assertNull(sll.head);
+        assertNull(sll.tail);
     }
 }
