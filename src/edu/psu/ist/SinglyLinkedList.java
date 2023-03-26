@@ -79,12 +79,16 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         return toDelete;
     }
 
+    public boolean isEmpty() {
+        return this.head == null && this.tail == null;
+    }
+
     public Node<T> enqueue(T data) {
         // create new node
         Node<T> toEnqueue = new Node<>(data);
 
         // check if the list is empty
-        if (this.head == null && this.tail == null) {
+        if (isEmpty()) {
             // set the head, tail and new node equal to one another
             this.head = this.tail = toEnqueue;
 
@@ -100,6 +104,22 @@ public class SinglyLinkedList<T extends Comparable<T>> {
 
         // return the enqueued node
         return toEnqueue;
+    }
+
+    public Node<T> dequeue(T data) {
+        // check if the list is empty
+        // throw an exception
+
+        // store current head node in toDequeue
+
+        // change the head reference to the next node
+
+        // if the head is null, set the tail to null as the list is empty
+
+        // set the next node to null
+
+        // return the dequeued node
+        return null;
     }
 
     @Override

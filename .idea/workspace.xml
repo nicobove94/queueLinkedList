@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest">
+    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="Completed enqueue method and tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/edu/psu/ist/SinglyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
@@ -51,7 +51,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testDequeue">
+    <configuration name="SinglyLinkedListTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="queueLinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.psu.ist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.psu.ist" />
+      <option name="MAIN_CLASS_NAME" value="edu.psu.ist.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDequeue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SinglyLinkedListTest.testEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="queueLinkedList" />
       <extension name="coverage">
@@ -70,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDequeue" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testEnqueue" />
       </list>
     </recent_temporary>
@@ -83,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679867198322</updated>
       <workItem from="1679867199442" duration="145000" />
-      <workItem from="1679868561286" duration="1891000" />
+      <workItem from="1679868561286" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679867222706</created>
@@ -120,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679870124503</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed enqueue method and tests">
+      <created>1679870500476</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679870500476</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +167,7 @@
     <MESSAGE value="Added QueueTest, Queue, and a constructor" />
     <MESSAGE value="Added tail node and enqueue test method" />
     <MESSAGE value="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added enqueue method skeleton and psuedocode, updated SinglyLinkedListTest" />
+    <MESSAGE value="Completed enqueue method and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed enqueue method and tests" />
   </component>
 </project>

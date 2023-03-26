@@ -78,4 +78,11 @@ class SinglyLinkedListTest {
         assertEquals(1, sll.head.data);
         assertEquals(3, sll.tail.data);
     }
+
+    @Test
+    public void testDequeue() {
+        SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
+        assertNull(sll.head);
+        assertNull(sll.tail);
+    }
 }
