@@ -2,9 +2,11 @@ package edu.psu.ist;
 
 public class SinglyLinkedList<T extends Comparable<T>> {
     Node<T> head;
+    Node<T> tail;
 
     public SinglyLinkedList() {
         this.head = null;
+        this.tail = null;
     }
 
     public Node<T> append(T data) {

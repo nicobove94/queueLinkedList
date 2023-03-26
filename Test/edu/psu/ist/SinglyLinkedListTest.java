@@ -62,4 +62,11 @@ class SinglyLinkedListTest {
         assertNull(sll.delete(4));
         assertEquals(1, sll.delete(1).data);
     }
+
+    @Test
+    public void testEnqueue() {
+        SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
+        assertNull(sll.head);
+        assertNull(sll.tail);
+    }
 }
