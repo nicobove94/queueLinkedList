@@ -1,1 +1,1 @@
-Singly Linked List Implementation
+Singly Linked List Implementation with basic Queue functionality.
