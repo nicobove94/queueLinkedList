@@ -68,5 +68,7 @@ class SinglyLinkedListTest {
         SinglyLinkedList<Integer> sll = new SinglyLinkedList<>();
         assertNull(sll.head);
         assertNull(sll.tail);
+
+        assertEquals(1, sll.enqueue(1).data);
     }
 }

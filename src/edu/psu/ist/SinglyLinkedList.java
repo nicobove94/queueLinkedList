@@ -78,6 +78,18 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         return toDelete;
     }
 
+    public Node<T> enqueue(T data) {
+        // create new node
+        Node<T> toEnqueue = new Node<>(data);
+        // check if the list is empty
+        // if it is, set the head, tail and new node equal to one another
+        //return it
+
+        // set the node equal to the next node in the queue
+        // return the enqueued node
+        return toEnqueue;
+    }
+
     @Override
     public String toString() {
         // get a current pointer
