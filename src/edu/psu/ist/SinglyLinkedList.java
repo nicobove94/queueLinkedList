@@ -20,13 +20,16 @@ public class SinglyLinkedList<T extends Comparable<T>> {
             // return it
             return this.head;
         }
+
         // find the last node
         Node<T> lastNode = this.head;
         while(lastNode.next != null) {
             lastNode = lastNode.next;
         }
+
         // add new node to the last node
         lastNode.next = toAppend;
+
         // return the new node
         return toAppend;
     }
@@ -39,12 +42,14 @@ public class SinglyLinkedList<T extends Comparable<T>> {
     public boolean contains(T data) {
         // get a pointer to the head
         Node<T> toTest = this.head;
+
         // loop through the list until we find it
         while (toTest != null) {
             // if find it return true
             if (toTest.data.compareTo(data) == 0) {
                 return true;
             }
+
             // advance the pointer
             toTest = toTest.next;
         }
@@ -62,6 +67,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
             this.head = this.head.next;
             return toDelete;
         }
+
         // if it is we need to set the head to null
         Node<T> current = this.head;
 
@@ -139,7 +145,7 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         // get a string builder
         StringBuilder stringBuilder = new StringBuilder();
 
-        // loop through all of the nodes
+        // loop through all the nodes
         while (toPrint != null) {
             // append the content to the str builder
             stringBuilder.append(toPrint.data);
