@@ -9,6 +9,11 @@ public class SinglyLinkedList<T extends Comparable<T>> {
         this.tail = null;
     }
 
+    /**
+     * Adds something to the end of the linked list
+     * @param data the item to be added to the end of the list
+     * @return item to be added to the list
+     */
     public Node<T> append(T data) {
         // create the new node
         Node<T> toAppend = new Node<>(data);
@@ -36,8 +41,8 @@ public class SinglyLinkedList<T extends Comparable<T>> {
 
     /**
      * Return whether the list contains this thing or not
-     * @param data
-     * @return a boolean
+     * @param data the item to be searched for
+     * @return a boolean describing whether the linked list contains the data
      */
     public boolean contains(T data) {
         // get a pointer to the head

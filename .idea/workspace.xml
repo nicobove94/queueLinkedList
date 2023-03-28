@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="Updated formatting" />
+    <list default="true" id="3173be44-93bc-49fb-81e3-8b599033a063" name="Changes" comment="iml update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/psu/ist/SinglyLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest.testDequeue">
+  <component name="RunManager" selected="JUnit.NodeTest">
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="queueLinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.psu.ist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.psu.ist" />
+      <option name="MAIN_CLASS_NAME" value="edu.psu.ist.NodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="queueLinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.psu.ist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.psu.ist" />
+      <option name="MAIN_CLASS_NAME" value="edu.psu.ist.SinglyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SinglyLinkedListTest.testDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="queueLinkedList" />
       <extension name="coverage">
@@ -82,6 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NodeTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testDequeue" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testEnqueue" />
       </list>
@@ -96,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679867198322</updated>
       <workItem from="1679867199442" duration="145000" />
-      <workItem from="1679868561286" duration="4413000" />
+      <workItem from="1679868561286" duration="5235000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679867222706</created>
@@ -168,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679887708437</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="iml update">
+      <created>1679887739312</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679887739312</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +238,7 @@
     <MESSAGE value="Added dequeue, tested exception throwing" />
     <MESSAGE value="Completed dequeue tests" />
     <MESSAGE value="Updated formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated formatting" />
+    <MESSAGE value="iml update" />
+    <option name="LAST_COMMIT_MESSAGE" value="iml update" />
   </component>
 </project>
